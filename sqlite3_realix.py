@@ -42,14 +42,22 @@ class ChromeSeleniumGetData:
 
     def paginate_and_parse(self):
         all_data = []
+        page_number = 1
 
-        for page_number in range(1, 8):
-            page_link = self.driver.find_element(By.XPATH, f'//a[@propval="{page_number}"]')
-            page_link.click()
-            time.sleep(2)
+        while True:
+
             html_content = self.driver.page_source
             parsed_data = self.parser.parse_html(html_content)
             all_data.extend(parsed_data)
+
+            try:
+                next_page_link = self.driver.find_element(By.XPATH, f'//a[@propval="{page_number + 1}"]')
+                next_page_link.click()
+                page_number += 1
+                self.driver.implicitly_wait(2.0)
+            except Exception as e:
+                print(f"No more pages to parse. Total pages parsed: {page_number}")
+                break
 
         return all_data
 

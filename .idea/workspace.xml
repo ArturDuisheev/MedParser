@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7911aa4-cc6c-4796-a5fb-84f0959e9940" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsed_data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsed_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/bs4_service/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_web.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sqlite3_realix.py" beforeDir="false" afterPath="$PROJECT_DIR$/sqlite3_realix.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720545725492</updated>
       <workItem from="1720545726905" duration="9646000" />
-      <workItem from="1720773255314" duration="13286000" />
+      <workItem from="1720773255314" duration="14521000" />
     </task>
     <servers />
   </component>
